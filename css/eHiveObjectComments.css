@@ -1,0 +1,118 @@
+/*
+	Copyright (C) 2012 Vernon Systems Limited
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either version 2
+	of the License, or (at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+*/
+div.ehive-object-comment {
+	clear: both;
+}
+
+div.ehive-object-comment img {
+	box-shadow: none;
+}
+
+form#ehive-object-comment-form  fieldset {
+	padding-top: 0;
+}
+
+form#ehive-object-comment-form fieldset div.ehive-object-comment-form-field {
+	clear: both;
+	margin-top: 24px;
+}
+
+form#ehive-object-comment-form label {
+	float: left;
+	display: block;
+	width: 120px;
+	margin: 7px 8px 0 0;
+}
+textarea#ehive-object-comment-form-comment-text-field {
+	width: 400px;
+	height: 100px;
+}
+span.ehive-mandatory-field {
+	vertical-align: top;
+	color: #BD3500;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+div.ehive-object-comment-form-field input {
+	margin-bottom: 0;
+}
+
+div.ehive-validation-message {
+	border-top: 1px solid #BD3500;
+	border-bottom: 1px solid #BD3500;
+	margin-left: 128px;
+	padding:6px 0;
+	width: 408px;
+	background-color: #FFB699;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+div.ehive-validation-message span {
+	color: #BD3500;
+	padding: 0 0 0 8px;
+}
+
+div.ehive-comment-wrap {
+	border-top: 1px solid #EDEBE6;	
+	margin: 6px 0 10px 0;
+}
+div.ehive-comment span.ehive-comment-when-posted {
+	float: right;
+}
+
+div#ehive-object-comment-captcha-field {
+	width: 400px;
+	height: 300px;
+	
+	padding-left: 130px;
+	padding-bottom: 10px;
+}
+
+div#ehive-object-comment-captcha-field div#eHiveCaptchaTitleTextDiv, div#eHiveCaptchaContainerDiv {
+	float: left;	
+}
+
+div#ehive-object-comment-captcha-field span.ehive-mandatory-field {
+	height: 10px;
+	width: 10px;
+	
+	display: block;
+	float: left;
+	
+	padding-left: 5px;
+}
+
+div#eHiveCaptchaTitleTextDiv {
+	padding-bottom: 8px;
+	margin-top: 18px;
+}
+
+span#ehive-object-comment-captcha-field-validation-error-message {
+	font-color: #BD3500;
+    margin: 8px 0 0 0;
+    
+    background-color: #FFB699;
+    border-bottom: 1px solid #BD3500;
+    border-top: 1px solid #BD3500;
+    padding: 6px 0 6px 6px;
+    width: 408px;
+	
+	display: none;
+	float: left;
+}
