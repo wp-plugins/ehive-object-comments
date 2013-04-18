@@ -1,0 +1,148 @@
+/******************
+ ******************
+ *                * 
+ * eHive Captcha  *
+ *                *
+ ******************
+ ******************/
+
+div#eHiveCaptchaContainerDiv div {
+	clear: none;
+	margin: 0;
+}
+
+div#eHiveCaptchaTitleTextDiv {
+	height: auto;
+	width: 300px;
+}
+
+div#eHiveCaptchaTitleTextDiv span#eHiveCaptchaTitleText {
+	font-size: 12px;
+}
+
+div#eHiveCaptchaContainerDiv {
+	height: 235px;
+	width: 300px;
+	
+	background-color: #fff;
+	border: 1.85px solid #775;
+	border-radius: 5px 5px 5px 5px;
+	
+	position: relative;
+
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv {
+	width: 300px;
+	height: 204px;
+		
+	border-bottom: 1.85px solid #775;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;	
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaHelpLinkDiv {
+	height: 30px;
+	width: 150px;
+	
+	float: left;
+	
+	border-right: 1.85px solid #775; 
+	border-bottom-left-radius: 5px;
+	
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaHelpLinkDiv a#eHiveCaptchaHelpLinkAnchor {
+	display: block;
+	
+	padding-top: 6px;
+	padding-left: 10px;
+	
+	font-size: 12px;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv {
+	height: 30px;
+	width: 149px;
+	
+	float: left;
+	
+	border-bottom-right-radius: 5px;
+	
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv div#eHiveCaptchaRefreshCaptchaText {
+	float: left;
+	font-size: 12px;
+	
+	padding-top: 7px;
+	padding-left: 10px;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv img#eHiveCaptchaRefreshStaticGif {
+	height: 16px;
+	width: 16px;
+	
+	float: left;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv div#eHiveCaptchaRefreshIcon {
+	height: 16px;
+	width: 16px;
+	
+	float: left;
+	
+	padding-top: 7px;
+	padding-left: 14px;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv div#eHiveCaptchaRefreshIcon img#eHiveCaptchaRefreshStaticGif:hover {
+	cursor: pointer;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaRefreshCaptchaDiv div#eHiveCaptchaRefreshIcon img#eHiveCaptchaRefreshAnimatedGif {
+	height: 16px;
+	width: 16px;
+	
+	display: none;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div.eHiveCaptchaImageDiv img.eHiveCaptchaImage {
+	border-radius: 2px 2px 2px 2px;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div.eHiveCaptchaImageDiv {
+	float: left;
+	width: 80px;
+	height: 80px;
+	padding: 9px;
+	cursor: pointer; 
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div.eHiveCaptchaImageDiv.selected img.eHiveCaptchaImage {
+	border-radius: 2px 2px 2px 2px;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div.eHiveCaptchaImageDiv.hover img.eHiveCaptchaImage {
+	border: 2px solid #e68e22 !important;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div#eHiveCaptchaSpinner {
+	background-color: #fff;
+	border-radius: 5px;
+	
+	height: 235px;
+	width: 300px;
+	
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+	
+	position: absolute;
+    z-index: 1;
+}
+
+div#eHiveCaptchaContainerDiv div#eHiveCaptchaDiv div#eHiveCaptchaSpinner img#eHiveCaptchaImgSpinner {
+	position: absolute;
+	top: 40%;
+	left: 45%;
+}
